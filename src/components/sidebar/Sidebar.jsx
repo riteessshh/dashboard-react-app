@@ -20,8 +20,10 @@ export default function Sidebar() {
           </li>
           <hr />
           <li className="nav-item">
-            <a className="nav-link" href="/topics">
-              <i className="bi bi-archive"></i>Topics
+            <a className="nav-link">
+              <Link to={`/topics`}>
+                <i className="bi bi-archive"></i>Topics
+              </Link>
             </a>
           </li>
           <hr />
@@ -32,7 +34,7 @@ export default function Sidebar() {
           </li>
           <hr />
           <li className="nav-item">
-            <a className="nav-link" href="/countries">
+            <a className="nav-link">
               <i className="bi bi-door-open"></i>Countries
             </a>
           </li>
