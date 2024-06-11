@@ -7,7 +7,8 @@ function SourceWise() {
   // const [cards, setCards] = useState([]);
   const [uniqueTopics, setUniqueTopics] = useState([]);
 
-  const url = "http://localhost:3000/list/source";
+  // const url = "http://localhost:3000/list/source";
+  const url = "https://dashboard-react-server.onrender.com/list/source";
 
   async function fetchData() {
     try {

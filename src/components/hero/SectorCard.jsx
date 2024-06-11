@@ -6,7 +6,8 @@ import "./sectorcard.css";
 function TopicCard() {
   const [sectors, setSectors] = useState([]);
 
-  const url = "http://localhost:3000/list/sector";
+  // const url = "http://localhost:3000/list/sector";
+  const url = "https://dashboard-react-server.onrender.com/list/sector";
 
   async function fetchData() {
     try {

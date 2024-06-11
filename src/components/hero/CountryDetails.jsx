@@ -7,7 +7,8 @@ function CountryDetails() {
   const [cards, setCards] = useState([]);
   const { country } = useParams();
 
-  const url = "http://localhost:3000/countryData";
+  // const url = "http://localhost:3000/countryData";
+  const url = "https://dashboard-react-server.onrender.com/countryData";
 
   async function fetchData(cnt) {
     try {

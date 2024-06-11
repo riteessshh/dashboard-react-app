@@ -4,16 +4,17 @@ import axios from "axios";
 import "./wiseStyle.css";
 
 function RegionWise() {
-  const [cards, setCards] = useState([]);
-  const [uniqueTopics, setUniqueTopics] = useState([]);
+  // const [cards, setCards] = useState([]);
+  const [uniqueregions, setUniqueRegions] = useState([]);
 
-  const url = "http://localhost:3000/data";
+  // const url = "http://localhost:3000/data";
+  const url = "https://dashboard-react-server.onrender.com/list/region";
 
   async function fetchData() {
     try {
       const response = await axios.get(url);
       const fetchedData = response.data;
-      setCards(fetchedData);
+      setUniqueRegions(fetchedData);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -23,12 +24,12 @@ function RegionWise() {
     fetchData();
   }, []);
 
-  useEffect(() => {
-    if (cards.length) {
-      const topicSet = new Set(cards.map((item) => item.region));
-      setUniqueTopics(Array.from(topicSet));
-    }
-  }, [cards]);
+  // useEffect(() => {
+  //   if (cards.length) {
+  //     const regionset = new Set(cards.map((item) => item.region));
+  //     setUniqueregions(Array.from(regionset));
+  //   }
+  // }, [cards]);
 
   return (
     <div className="wise-list">
@@ -44,7 +45,7 @@ function RegionWise() {
       </div>
 
       <ul className="list-container">
-        {uniqueTopics
+        {uniqueregions
           .filter((region) => region !== "")
           .map((region) => (
             <li className="list-items" key={region}>

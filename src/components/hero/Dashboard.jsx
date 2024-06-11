@@ -10,7 +10,8 @@ import SectorCard from "./SectorCard";
 function Dashboard() {
   const [cards, setCards] = useState([]);
 
-  const url = "http://localhost:3000/data";
+  // const url = "http://localhost:3000/data";
+  const url = "https://dashboard-react-server.onrender.com/data";
 
   async function fetchData() {
     try {

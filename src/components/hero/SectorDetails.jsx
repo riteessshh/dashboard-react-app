@@ -6,7 +6,8 @@ import "./sectorDetails.css";
 function SectorDetails() {
   const [cards, setCards] = useState([]);
 
-  const url = "http://localhost:3000/data";
+  // const url = "http://localhost:3000/data";
+  const url = "https://dashboard-react-server.onrender.com/data";
 
   async function fetchData() {
     try {

@@ -7,7 +7,8 @@ function CountryWise() {
   // const [cards, setCards] = useState([]);
   const [uniqueCountries, setUniqueCountries] = useState([]);
 
-  const url = "http://localhost:3000/list/country";
+  // const url = "http://localhost:3000/list/country";
+  const url = "https://dashboard-react-server.onrender.com/list/country";
 
   async function fetchData() {
     try {

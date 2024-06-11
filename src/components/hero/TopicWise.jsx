@@ -6,7 +6,8 @@ import "./wiseStyle.css";
 function TopicWise() {
   const [uniqueTopics, setUniqueTopics] = useState([]);
 
-  const url = "http://localhost:3000/list/topic";
+  // const url = "http://localhost:3000/list/topic";
+  const url = "https://dashboard-react-server.onrender.com/list/topic";
 
   async function fetchData() {
     try {

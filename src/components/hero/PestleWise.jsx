@@ -7,7 +7,8 @@ import "./wiseStyle.css";
 function PestleWise() {
   const [pestles, setPestles] = useState([]);
 
-  const url = "http://localhost:3000/fields";
+  // const url = "http://localhost:3000/fields";
+  const url = "https://dashboard-react-server.onrender.com/fields";
 
   async function fetchData() {
     try {
