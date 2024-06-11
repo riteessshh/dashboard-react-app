@@ -20,35 +20,43 @@ export default function Sidebar() {
           </li>
           <hr />
           <li className="nav-item">
-            <a className="nav-link">
-              <Link to={`/topics`}>
+            <Link to={`/topics`}>
+              <a className="nav-link">
                 <i className="bi bi-archive"></i>Topics
-              </Link>
-            </a>
+              </a>
+            </Link>
           </li>
           <hr />
           <li className="nav-item">
-            <a className="nav-link" href="/pestles">
-              <i className="bi bi-book"></i>Fields
-            </a>
+            <Link to={`/pestles`}>
+              <a className="nav-link">
+                <i className="bi bi-book"></i>Fields
+              </a>
+            </Link>
           </li>
           <hr />
           <li className="nav-item">
-            <a className="nav-link">
-              <i className="bi bi-door-open"></i>Countries
-            </a>
+            <Link to={`/countries`}>
+              <a className="nav-link">
+                <i className="bi bi-door-open"></i>Countries
+              </a>
+            </Link>
           </li>
           <hr />
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              <i className="bi bi-envelope"></i>Email
-            </a>
+            <Link to={`/`}>
+              <a className="nav-link">
+                <i className="bi bi-envelope"></i>Email
+              </a>
+            </Link>
           </li>
           <hr />
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              <i className="bi bi-chat-left-dots"></i>Chat
-            </a>
+            <Link to={`/`}>
+              <a className="nav-link">
+                <i className="bi bi-chat-left-dots"></i>Chat
+              </a>
+            </Link>
           </li>
         </ul>
       </aside>
