@@ -1,0 +1,22 @@
+.chart-main {
+  display: block;
+  padding: 5px;
+}
+.chart-main h3 {
+  color: #8e7dbe;
+}
+.select-button {
+  color: #e8a0bf;
+  font-weight: 500;
+  padding-left: 10px;
+  background-color: #fdf4f5;
+  height: 35px;
+  width: 180px;
+  margin: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.bchart canvas {
+  color: #8e7dbe;
+}

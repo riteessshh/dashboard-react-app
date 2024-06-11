@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: #8e7dbe;
+  min-width: 200px;
+  width: 15%;
+  padding: 10px 20px 0;
+}
+aside {
+  margin-left: 10px;
+}
+aside h1 {
+  color: #fdf4f5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a.nav-link {
+  color: #fdf4f5;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 0;
+}
+i.bi {
+  padding-right: 6px;
+}
+a.nav-link:hover {
+  color: #f9dede;
+  text-decoration: none;
+  font-size: 20px;
+}
+hr {
+  color: #f9dede;
+}

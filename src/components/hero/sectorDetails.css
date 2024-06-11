@@ -1,0 +1,24 @@
+.sector-main {
+  background-color: #f5eee6;
+  padding: 20px;
+  overflow: auto;
+  width: 100%;
+}
+.sector-main h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-right: 10px;
+}
+.sector-main h2 a {
+  color: #8e7dbe;
+}
+h4 {
+  color: #8e7dbe;
+}
+.sector-main h2 a p {
+  font-size: 20px;
+}
+.list-area {
+  overflow-y: auto;
+}

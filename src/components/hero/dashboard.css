@@ -1,0 +1,59 @@
+.mainChart {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.sideChart {
+  display: flex;
+}
+.sectorCard {
+  background-color: #fff;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.donutCard {
+  background-color: #fff;
+  margin-top: 10px;
+  height: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+.donutCard h4 {
+  color: #8e7dbe;
+}
+div.donut {
+  width: 400px;
+  background-color: #fff;
+  position: relative;
+  right: 100px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  /* height: 500px; */
+  /* overflow: visible; */
+}
+.donut div h4 {
+  color: #8e7dbe;
+}
+.cardBox {
+  margin: 20px 0;
+  display: flex;
+}
+.cardItem {
+  background-color: #fff;
+  text-align: center;
+  width: 28%;
+  height: 100px;
+  margin-right: 20px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}

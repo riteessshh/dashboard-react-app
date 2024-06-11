@@ -1,0 +1,30 @@
+.topBar {
+  display: flex;
+  align-items: baseline;
+}
+.profile {
+  display: flex;
+}
+.profile i {
+  color: #8e7dbe;
+  font-size: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.profile img {
+  border-radius: 50%;
+  width: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.profile p.profile-name {
+  font-size: 15px;
+  width: 60px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #8e7dbe;
+  cursor: pointer;
+}
+.profile i:hover {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}

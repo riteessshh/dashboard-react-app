@@ -1,0 +1,18 @@
+.country-detail-main {
+  background-color: #fdf4f5;
+  padding: 20px;
+  width: 100%;
+  overflow: auto;
+}
+h2.detail-title a {
+  color: #8e7dbe;
+}
+.subtitle {
+  color: #8e7dbe;
+}
+li {
+  color: #7f6faa;
+}
+.country-wise {
+  margin-bottom: 10px;
+}

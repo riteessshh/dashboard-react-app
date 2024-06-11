@@ -1,0 +1,58 @@
+.wise-list {
+  width: 100%;
+  overflow: auto;
+  background-color: #f5eee6;
+}
+.title-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.title-area .back-button {
+  font-size: 20px;
+  color: #8e7dbe;
+  padding-right: 40px;
+}
+.wise-title {
+  margin-left: 20px;
+  font-weight: 600;
+  color: #8e7dbe;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+/* .wise-list ul {
+  margin-left: 10px;
+} */
+.list-items a {
+  color: #8e7dbe;
+}
+.list-container {
+  width: 100%;
+  display: flex;
+}
+
+.list-items {
+  margin-right: 25px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  min-width: 180px;
+  font-size: 18px;
+  color: #8e7dbe;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.body-area {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.donut {
+  width: 50%;
+}
+.donut canvas {
+  width: 400px;
+}
